@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "id": "stickmanmod",
+    "version": "1.0.0",
+    "name": "Stickman Mod",
+    "description": "A mod that adds Stickman characters inspired by Alan Becker's style.",
+    "authors": ["eeweeeef6"],
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "main": [
+            "com.eeweeeef6.stickmanmod.StickmanMod"
+        ]
+    },
+    "mixins": [
+        "stickmanmod.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": "1.20.4",
+        "fabric-api": "*"
+    }
+}
